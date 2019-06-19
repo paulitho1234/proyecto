@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="icon" type="image/png" href="image/calculadora.png" />
+
+</head>
+
+<body>
+    <section>
+        <h2>Suma</h2>
+        <form action="">
+            <label for="s1">Valor 1:</label>
+            <input type="text" size="16" placeholder="Ingrese el primer valor" id="s1">
+            <br><br>
+            <label for="s2">Valor 2:</label>
+            <input type="text" size="16" placeholder="Ingrese el segundo valor" id="s2">
+            <br><br>
+            <input type="button" value="Calcular" onclick="suma();">
+            <input type="reset" value="Borrar">
+        </form>
+        <script>
+            function suma() {
+                resultado = parseInt(s1.value) + parseInt(s2.value);
+                alert("La suma es: " + resultado);
+            }
+        </script>
+    </section>
+    
+    <section>
+        <h2>Resta</h2>
+        <form action="">
+            <label for="r1">Valor 1:</label>
+            <input type="text" size="16" placeholder="Ingrese el primer valor" id="r1">
+            <br><br>
+            <label for="r2">Valor 2:</label>
+            <input type="text" size="16" placeholder="Ingrese el segundo valor" id="r2">
+            <br><br>
+            <input type="button" value="Calcular" onclick="resta()">
+            <input type="reset" value="Borrar">
+        </form>
+        <script>
+            function resta() {
+                resultado = parseInt(r1.value) - parseInt(r2.value);
+                alert("La resta es: " + resultado);
+            }
+        </script>
+    </section>
+
+    <section>
+        <h2>Multiplicacion</h2>
+        <form action="">
+            <label for="m1">Valor 1:</label>
+            <input type="text" size="16" placeholder="Ingrese el primer valor" id="m1">
+            <br><br>
+            <label for="m2">Valor 2:</label>
+            <input type="text" size="16" placeholder="Ingrese el segundo valor" id="m2">
+            <br><br>
+            <input type="button" value="Calcular" onclick="multiplicacion()">
+            <input type="reset" value="Borrar">
+        </form>
+        <script>
+            function multiplicacion() {
+                resultado = parseInt(m1.value) * parseInt(m2.value);
+                alert("La Multiplicacion es: " + resultado);
+            }
+        </script>
+    </section>
+
+    <section>
+        <h2>Division</h2>
+        <form action="">
+            <label for="d1">Valor 1:</label>
+            <input type="text" size="16" placeholder="Ingrese el primer valor" id="d1">
+            <br><br>
+            <label for="d2">Valor 2:</label>
+            <input type="text" size="16" placeholder="Ingrese el segundo valor" id="d2">
+            <br><br>
+            <input type="button" value="Calcular" onclick="division()">
+            <input type="reset" value="Borrar">
+        </form>
+        <script>
+            function division() {
+                resultado = parseInt(d1.value) / parseInt(d2.value);
+                alert("La Division es: " + resultado);
+            }
+        </script>
+    </section>
+</body>
+
+</html>
