@@ -1,0 +1,163 @@
+
+/*
+1. Reglas
+2. Selectores
+3. Declaraciones
+4. Propierdades
+5. Valores
+*/
+
+/* Selector de etiquetas = Hider-section-article-nav */
+
+
+.logo{
+    position: relative;/*Activar posicion*/
+    left: -30px;   /*posicion izquierda-derecha*/
+    top: -5px;    /*posicion arriba -abajo*/
+   
+}
+
+.header{
+    background-color: #000000;/*fondo de seccion de menu*/
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+ 
+}
+
+.presentacion{ /*seccion hola soy cristian*/
+    height: 300px;
+    background-color: #1b2127;
+    display:flex;
+    align-items: initial;
+    justify-content: space-between;
+}
+
+
+.menu ul li{                  /* menu vertical*/
+    display: inline-block;
+    font-family: Arial;
+    font-weight:bolder;
+    position: relative;
+    left: 800px;   /*posicion izquierda-derecha*/
+    top: -60px;    /*posicion arriba -abajo*/
+
+}
+.menu ul li a{
+    color: white;
+    padding: 10px; /*tamaño de menu*/
+    display: block;
+    text-decoration:none;
+}
+
+.menu ul li a:hover{
+    background-color: #026157;
+}
+
+/* seccion de presentacion ------------------------------------------------------------------*/
+
+h1{                                 /*estilo de letra a presentacion*/
+    color:rgb(255, 255, 255);
+    font-size: 250%;
+    line-height: 1.5;
+    font-family: 'Fjalla One',sans-serif;
+    font-weight: normal;
+}
+
+.imagen-principal{
+    width: 300px; /* ancho imagen*/
+    height: 300px;/*largo imagen*/
+    position: relative;/*Activar posicion*/
+    left: 1px;   /*posicion izquierda-derecha*/
+    top: 0px;    /*posicion arriba -abajo*/
+}
+h1 strong{
+    color: #00ff2a;
+}
+
+.proyect-details{
+    width: 500px;
+ }
+/*seccion portafolio-----------------------------------------------------------------*/
+
+.portafolio{
+    height: 350px; /*altura de seccion*/
+    background: #002420; /*fondo a la seccion*/
+    font-family:  sans-serif;/*tipo letra*/
+    color: aquamarine;/*color a texto*/
+}
+h2{
+    color:rgb(255, 217, 0);
+}
+.color-resaltado{ 
+    background: black;  /*color resaltado a texto portafolio*/
+}
+
+.imagen-portafolio{
+    width: 500px; /* ancho imagen*/
+    height: 300px;/*largo imagen*/
+    position: relative;/*Activar posicion*/
+    left: 820px;   /*posicion izquierda-derecha*/
+    top: -280px;    /*posicion arriba -abajo*/
+
+}
+
+
+/*seccion Mas experiencia-----------------------------------------------------------------*/
+.experiencia{
+    height: 400px;
+    background:rgb(31, 30, 32);
+    font-family:  sans-serif;/*tipo letra*/
+    color: rgb(255, 255, 255);/*color a texto*/
+}
+.event-title{
+    color: #00ff2a;
+}
+
+.color-resaltado-ex{ 
+    background: black;  /*color resaltado a texto portafolio*/
+}
+.color-titulo-ex{
+    color: #00ff2a;
+}
+.experiencia-descripcion{
+    position: relative;/*Activar posicion*/
+    left: 620px;   /*posicion izquierda-derecha*/
+    top: -280px;    /*posicion arriba -abajo*/
+}
+.event-description{
+    width: 500px;
+}
+
+
+
+/*seccion formulario-----------------------------------------------------------------*/
+.contac{
+    height: 200px;/*altura de seccion*/
+    background:rgb(59, 56, 63);/*fondo a la seccion*/
+    font-family:  sans-serif;/*tipo letra*/
+    color: rgb(255, 255, 255);/*color a texto*/
+}
+
+h3{
+  color:rgb(238, 234, 5);
+}
+
+
+.form-email{
+    position: relative;/*Activar posicion*/
+    left: 120px;   /*posicion izquierda-derecha*/
+    top: 80px;    /*posicion arriba -abajo*/
+}
+
+
+
+/*seccion de creador de pagina-----------------------------------------------------------------*/
+.fooder{
+    height: 50px;
+    background: rgb(10, 9, 9); /*fondo*/
+    color: aliceblue; /*color de texto*/
+    font-family:  sans-serif;/*tipo letra*/
+    line-height: 2.5; /*espacio de texto y fondo*/
+    text-align: center; /*alinear texto*/
+}

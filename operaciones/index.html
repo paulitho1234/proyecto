@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculadora</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <ol>
+                    <li>
+                        <a href="">suma</a>
+                    </li>
+                    <li>
+                        <a href="">resta</a>
+                    </li>
+                    <li>
+                        <a href="">multiplicacion</a>
+                    </li>
+                    <li>
+                        <a href="">division</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <h1>suma</h1>
+        <form action="suma">
+            <label for="sum1">Ingrese numero 1: </label>
+            <input type="number" placeholder="Ingrese un valor" id="sum1">
+            <br><br>
+            <label for="sum2">Ingrese numero 2: </label>
+            <input type="number" placeholder="Ingrese un valor" id="sum2">
+            <br><br>
+            <button onclick="suma()">Sumar</button>
+            <input type="button" value="sumar" onclick="sum()">
+        </form>
+
+        <script>
+            function suma() {
+                var sum1 = parseFloat(document.getElementById("sum1").value);
+                var sum2 = parseFloat(document.getElementById("sum2").value);
+                var resultado;
+                resultado = sum1 + sum2;
+
+                alert("la suma es: " + resultado);
+            }
+        </script>
+    </section>
+
+    <section>
+        <h1>Resta</h1>
+        <form action="">
+            
+        </form>
+    </section>
+    <section>multiplicacion</section>
+    <section>division</section>
+</body>
+
+</html>
